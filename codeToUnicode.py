@@ -5,7 +5,7 @@
 # This script simply adds readable version of each characters if possible
 
 # specifiy the codepage
-codepage = 'CP932.txt'
+codepage = 'codepages/CP932.txt'
 allCharacters = []
 for line in open(codepage):
     try:

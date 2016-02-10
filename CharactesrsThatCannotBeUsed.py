@@ -5,7 +5,7 @@
 # https://en.wikipedia.org/wiki/Code_page_950
 # CP936 for simplified chinese: https://en.wikipedia.org/wiki/Code_page_936
 # CP949 is for korean: https://en.wikipedia.org/wiki/Code_page_949
-code_page = "CP932.txt"
+code_page = "codepages/CP932.txt"
 
 
 # Generate a list of characters that cannot be used in tag name or properties
@@ -36,8 +36,6 @@ for line in open(code_page):
         invalid_for_properties.append(converted)
     else:
         valid_for_properties.append(converted)
-    if converted == '!':
-        break
 
 print('Valid for tags:')
 print(''.join(valid_for_tags))
