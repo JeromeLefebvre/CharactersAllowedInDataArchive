@@ -5,7 +5,7 @@
 # https://en.wikipedia.org/wiki/Code_page_950
 # CP936 for simplified chinese: https://en.wikipedia.org/wiki/Code_page_936
 # CP949 is for korean: https://en.wikipedia.org/wiki/Code_page_949
-CODE_PAGE = "codepages/CP932.txt"
+CODE_PAGE = "codepages/CP950.txt"
 
 
 # Generate a list of characters that cannot be used in tag name or properties
